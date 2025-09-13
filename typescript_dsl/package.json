@@ -1,0 +1,21 @@
+{
+  "name": "worldscript-animation-dsl",
+  "version": "1.0.0",
+  "description": "TypeScript DSL for creating animations inspired by WorldScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "demo": "node dist/demos/basic-shapes.js",
+    "test": "node dist/demos/test-all.js"
+  },
+  "keywords": ["animation", "dsl", "typescript", "graphics"],
+  "author": "3Blue1Brown",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {}
+}
