@@ -1,0 +1,41 @@
+{
+  "name": "animation-dsl",
+  "version": "1.0.0",
+  "description": "A TypeScript-based Domain Specific Language for creating mathematical and educational animations",
+  "type": "module",
+  "main": "src/dsl/api.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts demos/**/*.ts"
+  },
+  "keywords": [
+    "animation",
+    "dsl",
+    "typescript",
+    "mathematics",
+    "visualization",
+    "education",
+    "3blue1brown"
+  ],
+  "author": "Animation DSL Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mo-root/vids_cx_verf.git",
+    "directory": "animation_dsl"
+  },
+  "bugs": {
+    "url": "https://github.com/mo-root/vids_cx_verf/issues"
+  },
+  "homepage": "https://github.com/mo-root/vids_cx_verf#readme"
+}
