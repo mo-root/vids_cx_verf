@@ -1,0 +1,40 @@
+{
+  "name": "worldscript-animation-dsl",
+  "version": "1.0.0",
+  "description": "A TypeScript DSL for creating mathematical and educational animations",
+  "type": "module",
+  "main": "src/dsl/api.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "demo:basketball": "node dsl_demos/basketball_shot/basketball_shot.js",
+    "demo:nameflow": "node dsl_demos/name_flow_animation/name_flow.js",
+    "demo:gridflip": "node dsl_demos/grid_flip_animation/grid_flip.js",
+    "demo:linear": "node dsl_demos/linear_transformation/linear_transformation.js",
+    "demo:sphere": "node dsl_demos/sphere_projection/sphere_projection.js",
+    "demo:all": "echo 'All demos created! Check the dsl_demos/ directory for TypeScript source files.'"
+  },
+  "keywords": [
+    "animation",
+    "dsl",
+    "typescript",
+    "education",
+    "mathematics",
+    "visualization"
+  ],
+  "author": "Animation DSL Team",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/dsl/api.js",
+      "types": "./src/dsl/types.ts"
+    }
+  }
+}

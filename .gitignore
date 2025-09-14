@@ -151,3 +151,12 @@ dmypy.json
 playground.py
 _2022/wordle/data/pattern_matrix.npy
 _2022/piano/data/
+
+# DSL specific ignores
+node_modules/
+dist/
+*.js.map
+*.d.ts.map
+.npm
+.yarn
+yarn-error.log
